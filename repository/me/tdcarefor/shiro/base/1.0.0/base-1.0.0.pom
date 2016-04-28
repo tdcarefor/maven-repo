@@ -11,6 +11,7 @@
         <module>server</module>
         <module>core</module>
         <module>client</module>
+        <module>app1</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -140,6 +141,12 @@
         </dependency>
 
     </dependencies>
+    <repositories>
+        <repository>
+            <id>tdcarefor-maven-repo</id>
+            <url>https://raw.githubusercontent.com/tdcarefor/maven-repo/master/repository</url>
+        </repository>
+    </repositories>
 
     <distributionManagement>
         <repository>
