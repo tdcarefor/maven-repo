@@ -21,4 +21,10 @@
     </dependencies>
 
 
+    <distributionManagement>
+        <repository>
+            <id>tdcarefor-mvn-repo</id>
+            <url>file:/Users/tzw/tdkk/maven-repo/repository/</url>
+        </repository>
+    </distributionManagement>
 </project>
